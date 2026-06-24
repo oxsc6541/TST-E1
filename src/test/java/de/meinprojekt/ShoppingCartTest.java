@@ -10,11 +10,12 @@ class ShoppingCartTest {
         ShoppingCart cart = new ShoppingCart();
         assertEquals(0.0, cart.getTotal());
     }
-}
-@Test
-void produktKannHinzugefuegtWerden() {
-    ShoppingCart cart = new ShoppingCart();
-    cart.addItem("Apfel", 2.0, 2);
-    assertEquals(4.0, cart.getTotal());
-}
 
+    @Test
+    void produktKannHinzugefuegtWerden() {
+        ShoppingCart cart = new ShoppingCart();
+        cart.addItem("Apfel", 2.0, 2);
+
+        assertEquals(4.0, cart.getTotal());
+    }
+}
