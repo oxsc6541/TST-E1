@@ -18,4 +18,13 @@ class ShoppingCartTest {
 
         assertEquals(4.0, cart.getTotal());
     }
+    @Test
+    void produktKannEntferntWerden() {
+        ShoppingCart cart = new ShoppingCart();
+        cart.addItem("Apfel", 2.0, 2); // Summe wäre 4.0
+
+        cart.removeItem("Apfel");
+
+        assertEquals(0.0, cart.getTotal());
+    }
 }
