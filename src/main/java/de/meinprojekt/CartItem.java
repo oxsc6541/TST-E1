@@ -13,4 +13,5 @@ public class CartItem {
 
     public double getPrice() { return price; }
     public int getQuantity() { return quantity; }
+    public String getName() { return name; }
 }

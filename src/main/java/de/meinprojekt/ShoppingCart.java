@@ -9,6 +9,9 @@ public class ShoppingCart {
     public void addItem(String name, double price, int quantity) {
         items.add(new CartItem(name, price, quantity));
     }
+    public void removeItem(String name) {
+        items.removeIf(item -> item.getName().equals(name));
+    }
 
     public double getTotal() {
         double total = 0.0;
