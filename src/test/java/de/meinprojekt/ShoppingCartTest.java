@@ -27,4 +27,13 @@ class ShoppingCartTest {
 
         assertEquals(0.0, cart.getTotal());
     }
+    @Test
+    void negativerPreisWirftException() {
+        ShoppingCart cart = new ShoppingCart();
+        
+        assertThrows(IllegalArgumentException.class, () -> {
+            cart.addItem("Apfel", -1.0, 1);
+        });
+    }
+
 }
