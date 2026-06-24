@@ -7,8 +7,14 @@ class ShoppingCartTest {
 
     @Test
     void neuerWarenkorbHatSummeNull() {
-        // Das wird sofort rot unterringelt, weil es die Klasse noch nicht gibt!
         ShoppingCart cart = new ShoppingCart();
         assertEquals(0.0, cart.getTotal());
     }
 }
+@Test
+void produktKannHinzugefuegtWerden() {
+    ShoppingCart cart = new ShoppingCart();
+    cart.addItem("Apfel", 2.0, 2);
+    assertEquals(4.0, cart.getTotal());
+}
+
