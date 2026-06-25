@@ -1,5 +1,7 @@
 # Einsendeaufgabe TST-E1: Projektaufgabe Testen
+
 README wurde mit Hilfe Google KI-Modus ergänzt und korrigiert
+
 Dieses Repository enthält die praktische Umsetzung der Einsendeaufgabe **TST-E1**. Das Projekt wurde mit **Java 23**, **Maven** und **IntelliJ IDEA Premium** umgesetzt.
 
 ## Abgegeben wurde die Variante: A1 + A2 + A3 + A4
@@ -47,5 +49,5 @@ Der generierte, interaktive HTML-Bericht befindet sich nach dem Durchlauf unter:
 
 ---
 
-## 📝 Wichtiger Hinweis zur Dokumentation
+##  Wichtiger Hinweis zur Dokumentation
 Die vollständige und kritische Auseinandersetzung mit dem Code, den gefundenen Grenzwerten (Edge-Cases), der KI-Nutzung sowie den technischen Hürden (wie dem Java 23 ByteBuddy-Konflikt) befindet sich detailliert in der Datei **`AI_NOTES.md`** hier im Repository.
