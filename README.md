@@ -49,3 +49,4 @@ Der generierte, interaktive HTML-Bericht befindet sich nach dem Durchlauf unter:
 
 ## 📝 Wichtiger Hinweis zur Dokumentation
 Die vollständige und kritische Auseinandersetzung mit dem Code, den gefundenen Grenzwerten (Edge-Cases), der KI-Nutzung sowie den technischen Hürden (wie dem Java 23 ByteBuddy-Konflikt) befindet sich detailliert in der Datei **`AI_NOTES.md`** hier im Repository.
+README wurde mit Hilfe Google KI-Modus ergänzt und korrigiert
